@@ -1,0 +1,23 @@
+# virtual enviorment (venv):  it is a virtually created enviorment 
+where you can use your modules and libraries seprately without install them in your sysytem 
+# you can also use these modules in any computer if that module is not installed in that computer
+
+step1 : "pip install virtualenv"
+
+step2 : "python -m venv virtalenv"   ("virtualenv" is the name for virtual enviorment you created )
+
+for activating virtual enviorment
+
+step3 :".\venv\scripts\Activate.ps1"
+vitual enviorment is activated
+
+for deactivate virtual enviorment
+# enter "deactivate"
+
+for deleting virtual enviorment
+# delete the folder of virtual enviorment created by you (ex : delete venv)
+
+# powershell error in crating virtual enviorment
+1. open powershell as administrator
+2. type Set-ExecutionPolicy unresricted"
+3. type "y"

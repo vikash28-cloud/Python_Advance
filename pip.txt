@@ -1,0 +1,3 @@
+# pip freeze: it shows you all the modules inatalled in your sysytem
+# pip freeze > requirment.txt :  it create  a modules file (requirment.txt)  wich contain the name of all the modules and its versions
+#pip install -r .\requirment.txt : it install all modules in virtual enviorment
